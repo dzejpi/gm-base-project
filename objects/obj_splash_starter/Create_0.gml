@@ -21,3 +21,7 @@ current_delay = logo_delay;
 
 // Needs to be 0, because first logo is fading in
 alpha_image = 0;
+
+// Load audio groups
+audio_group_load(music_audiogroup);
+audio_group_load(sound_audiogroup);
