@@ -4,8 +4,10 @@
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},"order":2,},
     {"id":{"name":"obj_splash_starter","path":"objects/obj_splash_starter/obj_splash_starter.yy",},"order":2,},
     {"id":{"name":"obj_game_room_one_starter","path":"objects/obj_game_room_one_starter/obj_game_room_one_starter.yy",},"order":0,},
+    {"id":{"name":"spr_second_logo","path":"sprites/spr_second_logo/spr_second_logo.yy",},"order":1,},
     {"id":{"name":"obj_window_size_handler","path":"objects/obj_window_size_handler/obj_window_size_handler.yy",},"order":0,},
     {"id":{"name":"obj_credits_starter","path":"objects/obj_credits_starter/obj_credits_starter.yy",},"order":0,},
+    {"id":{"name":"spr_first_logo","path":"sprites/spr_first_logo/spr_first_logo.yy",},"order":0,},
     {"id":{"name":"obj_main_menu_starter","path":"objects/obj_main_menu_starter/obj_main_menu_starter.yy",},"order":1,},
     {"id":{"name":"room_game_room_one","path":"rooms/room_game_room_one/room_game_room_one.yy",},"order":3,},
     {"id":{"name":"room_splash","path":"rooms/room_splash/room_splash.yy",},"order":0,},
@@ -49,6 +51,7 @@
     {"folderPath":"folders/Objects/Room Starters.yy","order":2,"resourceVersion":"1.0","name":"Room Starters","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room Starters/Game Rooms.yy","order":4,"resourceVersion":"1.0","name":"Game Rooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Room Starters/Non-Game Rooms.yy","order":5,"resourceVersion":"1.0","name":"Non-Game Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Splash Screen.yy","order":1,"resourceVersion":"1.0","name":"Splash Screen","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
