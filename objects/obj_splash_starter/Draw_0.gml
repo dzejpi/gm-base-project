@@ -34,6 +34,21 @@ if displayed_splash
 	}
 }
 
+// Fade out at start
+if displaying_splash && logo_displaying = 1
+{
+	draw_set_alpha(1 - alpha_image);
+	draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
+}
+
+// Fade in when the second logo is fading out
+if displayed_splash && logo_displaying = 2
+{
+	draw_set_alpha(1 - alpha_image);
+	draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
+}
+
+// Draw logos
 draw_set_alpha(alpha_image);
 if logo_displaying = 1
 {
@@ -45,4 +60,5 @@ if logo_displaying = 1
 	draw_sprite(spr_second_logo, 0, room_width/2, room_height/2);
 }
 
+// Reset alpha to make sure everything else draws properly
 draw_set_alpha(1);
