@@ -19,15 +19,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Non-Game Rooms",
-    "path": "folders/Objects/Room Starters/Non-Game Rooms.yy",
+    "name": "Menu Buttons",
+    "path": "folders/Objects/Menu Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_main_menu_starter",
+  "name": "obj_menu_button_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

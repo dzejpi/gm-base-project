@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_menu_button_parent",
+    "path": "objects/obj_menu_button_parent/obj_menu_button_parent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -19,15 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Non-Game Rooms",
-    "path": "folders/Objects/Room Starters/Non-Game Rooms.yy",
+    "name": "Clickable Buttons",
+    "path": "folders/Objects/Menu Buttons/Clickable Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_main_menu_starter",
+  "name": "obj_quit_button",
   "tags": [],
   "resourceType": "GMObject",
 }
