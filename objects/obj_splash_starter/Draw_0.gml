@@ -7,8 +7,15 @@ if displaying_splash
 		alpha_image += splash_speed;
 	} else
 	{
-		displaying_splash = false;
-		displayed_splash = true;
+		if current_delay > 0
+		{
+			current_delay -= 1;
+		} else
+		{
+			current_delay = logo_delay;
+			displaying_splash = false;
+			displayed_splash = true;
+		}
 	}
 }
 

@@ -12,5 +12,12 @@ splash_speed = 0.01;
 // Currently displayed logo
 logo_displaying = 1;
 
+// How long is logo displayed at 100 % transparency in seconds
+logo_delay = 2;
+
+// Convert to ticks and add to helper variable
+logo_delay = logo_delay * 60;
+current_delay = logo_delay;
+
 // Needs to be 0, because first logo is fading in
 alpha_image = 0;
