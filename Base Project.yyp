@@ -1,5 +1,10 @@
 {
-  "resources": [],
+  "resources": [
+    {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},"order":1,},
+    {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},"order":2,},
+    {"id":{"name":"room_game_room","path":"rooms/room_game_room/room_game_room.yy",},"order":3,},
+    {"id":{"name":"room_splash","path":"rooms/room_splash/room_splash.yy",},"order":0,},
+  ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -14,7 +19,12 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrderNodes": [],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room_splash","path":"rooms/room_splash/room_splash.yy",},},
+    {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
+    {"roomId":{"name":"room_game_room","path":"rooms/room_game_room/room_game_room.yy",},},
+    {"roomId":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
+  ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets.yy","order":2,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
