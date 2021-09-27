@@ -27,4 +27,4 @@ audio_group_load(music_audiogroup);
 audio_group_load(sound_audiogroup);
 
 // FOR DEBUGGING. Go to any room
-//room_goto(room_main_menu);
+//room_goto(room_credits);
