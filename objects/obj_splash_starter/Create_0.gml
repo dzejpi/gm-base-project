@@ -30,4 +30,4 @@ audio_group_load(music_audiogroup);
 audio_group_load(sound_audiogroup);
 
 // FOR DEBUGGING. Go to any room immediately
-//room_goto(room_credits);
+//room_goto(room_game_room_one);
