@@ -2,6 +2,9 @@
 // Fix HTML5 scaling right away
 instance_create_depth(x, y, 0, obj_window_size_handler);
 
+// Fade out
+instance_create_depth(x, y, 0, obj_game_start_fade_out);
+
 // Variables that check whether the logo flashed fully or not
 displaying_splash = true;
 displayed_splash = false;
@@ -26,5 +29,5 @@ alpha_image = 0;
 audio_group_load(music_audiogroup);
 audio_group_load(sound_audiogroup);
 
-// FOR DEBUGGING. Go to any room
+// FOR DEBUGGING. Go to any room immediately
 //room_goto(room_credits);

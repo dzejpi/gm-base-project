@@ -1,4 +1,7 @@
 /// @description Set credits variables
+// Fade out
+instance_create_depth(x, y, 0, obj_game_start_fade_out);
+
 indentation = 48;
 
 // Text colors

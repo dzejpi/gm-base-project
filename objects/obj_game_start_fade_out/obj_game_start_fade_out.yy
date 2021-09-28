@@ -19,15 +19,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game Rooms",
-    "path": "folders/Objects/Room Starters/Game Rooms.yy",
+    "name": "Game Logic",
+    "path": "folders/Objects/Game Logic.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_game_room_one_starter",
+  "name": "obj_game_start_fade_out",
   "tags": [],
   "resourceType": "GMObject",
 }

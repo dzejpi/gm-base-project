@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "font_credits_title",
+  "name": "font_credits_text",
   "tags": [],
   "resourceType": "GMFont",
 }
